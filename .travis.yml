@@ -6,7 +6,7 @@ before_install:
   - pip install --user codecov
 branches:
   only:
-    - master
+    - main
 addons:
   chrome: stable
 before_script:
